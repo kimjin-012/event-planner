@@ -4,6 +4,8 @@
   <p align="center">With Google Map</p>
 </p>
 
+Creating web application that uses Google Map 
+
 ## About this Project
 
 Playing with MERN I wanted to add API into the website. I created a simple web application where User can add an event with address, and it will display the location with a map using Google Map API.

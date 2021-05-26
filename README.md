@@ -7,6 +7,9 @@
 Creating web application that uses Google Map 
 
 ## About this Project
+Welcome to simple Event Planner web that uses Google Map!
+<br/>
+<img src="./image/event.gif" alt="main page"/>
 
 Playing with MERN I wanted to add API into the website. I created a simple web application where User can add an event with address, and it will display the location with a map using Google Map API.
 I think this is a great way to practice applying api into MERN project, specifically calling within React. Thank you for checking out this page.

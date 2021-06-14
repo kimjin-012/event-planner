@@ -4,7 +4,7 @@ import Geocode from "react-geocode";
 import GoogleMapReact from 'google-map-react';
 import Main from './Main'
 
-Geocode.setApiKey("AIzaSyD2O8UIsUWU-tbBKE5W5W9CSRxamWLDTnk");
+Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY);
 Geocode.setLanguage("en");
 
 
@@ -63,7 +63,7 @@ const Map = props => {
         <h1 class="display-5">Location</h1>
             <div style={{height:'400px', width:'900px', border:'1px solid black'}}>
             <GoogleMapReact
-                apiKey={"AIzaSyD2O8UIsUWU-tbBKE5W5W9CSRxamWLDTnk"}
+                apiKey={process.env.REACT_APP_GOOGLE_KEY}
                 defaultCenter={{
                     lat:47.6062,
                     lng:-122.3321
